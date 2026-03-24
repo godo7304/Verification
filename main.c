@@ -41,10 +41,11 @@ int main()
     int resultat;
 
     resultat = verification_0(tab, nbVal, 8);
-    resultat = verification_1(tab, nbVal, 8);
+    resultat_1 = verification_1(tab, nbVal, 8);
 
 
     printf("\nresultat = %d", resultat);
+    printf("\nresultat = %d", resultat_1);
 
     return 0;
 }
